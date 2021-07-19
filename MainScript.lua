@@ -165,7 +165,7 @@ local widgetInfo = DockWidgetPluginGuiInfo.new(
 )
 
 local lightPanel = plugin:CreateDockWidgetPluginGui("LightPanel", widgetInfo)
-lightPanel.Title = "GI Light Panel"
+lightPanel.Title = "GI Panel"
 
 ui.Parent = lightPanel
 
