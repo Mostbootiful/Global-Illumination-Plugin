@@ -204,10 +204,7 @@ ui.bake.MouseButton1Down:Connect(function()
 		createfolders() wait() 
 		resetLights()
 		CreateLightRays(tonumber(setting.Intensity.Text)) 
-	
-		ui.bake.Text = "Baking..."
-		wait(0.5)
-		ui.bake.Text = "Bake Lighting"
+		
 		baking = false
 	end
 end)
